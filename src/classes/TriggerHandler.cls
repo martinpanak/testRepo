@@ -8,7 +8,7 @@ public virtual class TriggerHandler {
   @TestVisible 
   private TriggerContext context;   
  
-  // the current context of the trigger, overridable in tests
+  // the current context of the trigger, overridable in tests 
   @TestVisible  
   private Boolean isTriggerExecuting;    
  
