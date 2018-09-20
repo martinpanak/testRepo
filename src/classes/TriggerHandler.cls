@@ -19,7 +19,7 @@ public virtual class TriggerHandler {
   }  
   
   // constructor
-  public TriggerHandler() {
+  public TriggerHandler() { 
     this.setTriggerContext(); 
   }
 
