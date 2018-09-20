@@ -16,7 +16,7 @@ public virtual class TriggerHandler {
   static {
     loopCountMap = new Map<String, LoopCount>(); 
     bypassedHandlers = new Set<String>(); 
-  }
+  } 
   
   // constructor
   public TriggerHandler() {
