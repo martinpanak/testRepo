@@ -11,7 +11,7 @@ public virtual class TriggerHandler {
   // the current context of the trigger, overridable in tests
   @TestVisible
   private Boolean isTriggerExecuting;    
-
+ 
   // static initialization
   static {
     loopCountMap = new Map<String, LoopCount>();
