@@ -20,7 +20,7 @@ private class TriggerHandler_Test {
   // contexts tests
 
   @isTest
-  static void testBeforeInsert() {
+  static void testBeforeInsert() { 
     beforeInsertMode();
     handler.run(); 
     System.assertEquals('beforeInsert', lastMethodCalled, 'last method should be beforeInsert');
