@@ -27,7 +27,7 @@ public virtual class TriggerHandler {
    * public instance methods
    ***************************************/
 
-  // main method that will be called during execution
+  // main method that will be called during execution 
   public void run() {
 
     if(!validateRun()) return; 
