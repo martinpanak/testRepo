@@ -5,7 +5,7 @@ public virtual class TriggerHandler {
   private static Set<String> bypassedHandlers; 
 
   // the current context of the trigger, overridable in tests
-  @TestVisible
+  @TestVisible 
   private TriggerContext context; 
 
   // the current context of the trigger, overridable in tests
