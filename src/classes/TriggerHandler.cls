@@ -12,7 +12,7 @@ public virtual class TriggerHandler {
   @TestVisible  
   private Boolean isTriggerExecuting;     
  
-  // static initialization
+  // static initialization 
   static { 
     loopCountMap = new Map<String, LoopCount>();
     bypassedHandlers = new Set<String>();
