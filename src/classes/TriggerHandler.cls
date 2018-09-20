@@ -30,7 +30,7 @@ public virtual class TriggerHandler {
   // main method that will be called during execution
   public void run() {
 
-    if(!validateRun()) return;
+    if(!validateRun()) return; 
 
     addToLoopCount();
 
