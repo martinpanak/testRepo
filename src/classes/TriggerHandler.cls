@@ -17,7 +17,7 @@ public virtual class TriggerHandler {
     loopCountMap = new Map<String, LoopCount>();
     bypassedHandlers = new Set<String>();
   }  
-  
+   
   // constructor
   public TriggerHandler() { 
     this.setTriggerContext(); 
