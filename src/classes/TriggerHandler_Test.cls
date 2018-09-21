@@ -13,7 +13,7 @@ private class TriggerHandler_Test {
     handler.isTriggerExecuting = true;
   } 
 
-  /*************************************** 
+  /***************************************  
    * unit tests
    ***************************************/
  
