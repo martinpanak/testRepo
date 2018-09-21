@@ -9,7 +9,7 @@ private class TriggerHandler_Test {
 
   static {
     handler = new TriggerHandler_Test.TestHandler(); 
-    // override its internal trigger detection 
+    // override its internal trigger detection  
     handler.isTriggerExecuting = true;
   } 
 
