@@ -8,7 +8,7 @@ private class TriggerHandler_Test {
   private static TriggerHandler_Test.TestHandler handler;
 
   static {
-    handler = new TriggerHandler_Test.TestHandler();
+    handler = new TriggerHandler_Test.TestHandler(); 
     // override its internal trigger detection 
     handler.isTriggerExecuting = true;
   } 
