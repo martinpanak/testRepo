@@ -18,7 +18,7 @@ public virtual class TriggerHandler {
     bypassedHandlers = new Set<String>();
   }   
     
-  // constructor 
+  // constructor  
   public TriggerHandler() { 
     this.setTriggerContext();   
   }
