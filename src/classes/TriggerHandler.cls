@@ -3,7 +3,7 @@ public virtual class TriggerHandler {
   // static map of handlername, times run() was invoked
   private static Map<String, LoopCount> loopCountMap; 
   private static Set<String> bypassedHandlers;  
-   
+    
   // the current context of the trigger, overridable in tests
   @TestVisible  
   private TriggerContext context;         
