@@ -22,7 +22,7 @@ public virtual class TriggerHandler {
   public TriggerHandler() { 
     this.setTriggerContext();  
   }
-
+ 
   /***************************************  
    * public instance methods
    ***************************************/
