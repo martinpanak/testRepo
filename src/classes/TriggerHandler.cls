@@ -6,7 +6,7 @@ public virtual class TriggerHandler {
    
   // the current context of the trigger, overridable in tests
   @TestVisible  
-  private TriggerContext context;        
+  private TriggerContext context;         
   
   // the current context of the trigger, overridable in tests 
   @TestVisible     
@@ -20,7 +20,7 @@ public virtual class TriggerHandler {
     
   // constructor  
   public TriggerHandler() { 
-    this.setTriggerContext();   
+    this.setTriggerContext();    
   }
  
   /***************************************  
