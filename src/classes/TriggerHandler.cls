@@ -5,13 +5,13 @@ public virtual class TriggerHandler {
   private static Set<String> bypassedHandlers; 
 
   // the current context of the trigger, overridable in tests
-  @TestVisible 
-  private TriggerContext context;     
+  @TestVisible  
+  private TriggerContext context;       
  
   // the current context of the trigger, overridable in tests 
   @TestVisible  
-  private Boolean isTriggerExecuting;      
- 
+  private Boolean isTriggerExecuting;       
+  
   // static initialization 
   static { 
     loopCountMap = new Map<String, LoopCount>();
